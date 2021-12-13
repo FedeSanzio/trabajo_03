@@ -1,0 +1,45 @@
+         /*IMPORTACIONES*/
+         @import "bem";
+         // VARIABLES
+         $rosa: #F1C6C5;
+         $verdeclarito: #995353;
+         $verde: #4A9E63;
+         $colordefault: white;
+         $ancho: 720px;
+         $mobile: 578px;
+         $tablet: 992px;
+         $desktop: 1200px;
+         
+
+        /*HEADER*/
+             /*BUCLES*/
+        @for $titulo from 1 through 6 {
+            
+            h#{$titulo} { 
+                font: 2.5rem / $titulo;
+            }
+        }
+             //MAPS con each
+       /* $botones: (
+            inicio: #995353,
+            productos: red,
+            preguntas: #F1C6C5,
+            contactanos: black,
+        );
+        @each $nombre, $boton in $botones {
+            .boton-#{$nombre} {
+                background-color: $boton;
+                color: white;
+                text-decoration: none;
+            }
+        }*/
+                
+
+        
+        
+        
+
+        /*FOOTER*/
+footer{
+    background-color: $verde;
+}

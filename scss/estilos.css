@@ -1,0 +1,74 @@
+/*IMPORTACIONES*/
+/*METODOLOGIA*/
+/* Block */
+.preguntas {
+  background-color: #4A9E63;
+  text-align: center;
+}
+
+/* Element */
+.preguntas__texto {
+  color: #F1C6C5;
+}
+
+.preguntas__parrafo {
+  color: white;
+  font-size: 25px;
+}
+
+/* Modifier */
+/*HEADER*/
+/*BUCLES*/
+h1 {
+  font: 2.5rem;
+}
+
+h2 {
+  font: 1.25rem;
+}
+
+h3 {
+  font: 0.83333rem;
+}
+
+h4 {
+  font: 0.625rem;
+}
+
+h5 {
+  font: 0.5rem;
+}
+
+h6 {
+  font: 0.41667rem;
+}
+
+.boton-inicio {
+  background-color: #995353;
+  color: white;
+  text-decoration: none;
+}
+
+.boton-productos {
+  background-color: red;
+  color: white;
+  text-decoration: none;
+}
+
+.boton-preguntas {
+  background-color: #F1C6C5;
+  color: white;
+  text-decoration: none;
+}
+
+.boton-contactanos {
+  background-color: black;
+  color: white;
+  text-decoration: none;
+}
+
+/*FOOTER*/
+footer {
+  background-color: #4A9E63;
+}
+/*# sourceMappingURL=estilos.css.map */

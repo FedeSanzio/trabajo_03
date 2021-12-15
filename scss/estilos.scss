@@ -9,9 +9,29 @@
          $mobile: 578px;
          $tablet: 992px;
          $desktop: 1200px;
-         
+         $fondo: #f4f4f4;
+         $fondo1: white;
 
         /*HEADER*/
+        header {
+            background-color: $fondo;
+        }
+        
+        /*MAIN*/
+        main { 
+            background-color: $fondo1; 
+            
+            section {
+                p { 
+                    text-decoration-color: $verde;
+                    display: flex;
+                    align-items: center;
+                }
+
+            }
+            
+        }
+    
              /*BUCLES*/
         @for $titulo from 1 through 6 {
             
@@ -20,11 +40,11 @@
             }
         }
              //MAPS con each
-       /* $botones: (
+        $botones: (
             inicio: #995353,
-            productos: red,
+            productos: #643737,
             preguntas: #F1C6C5,
-            contactanos: black,
+            contactanos: #a08282,
         );
         @each $nombre, $boton in $botones {
             .boton-#{$nombre} {
@@ -32,14 +52,15 @@
                 color: white;
                 text-decoration: none;
             }
-        }*/
+        }
                 
-
-        
-        
-        
-
         /*FOOTER*/
 footer{
     background-color: $verde;
+    div {
+        h3{
+            font-size: large;
+        }
+    }
+    
 }

@@ -18,6 +18,26 @@
 
 /* Modifier */
 /*HEADER*/
+header {
+  background-color: #f4f4f4;
+}
+
+/*MAIN*/
+main {
+  background-color: white;
+}
+
+main section p {
+  -webkit-text-decoration-color: #4A9E63;
+          text-decoration-color: #4A9E63;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 /*BUCLES*/
 h1 {
   font: 2.5rem;
@@ -50,7 +70,7 @@ h6 {
 }
 
 .boton-productos {
-  background-color: red;
+  background-color: #643737;
   color: white;
   text-decoration: none;
 }
@@ -62,7 +82,7 @@ h6 {
 }
 
 .boton-contactanos {
-  background-color: black;
+  background-color: #a08282;
   color: white;
   text-decoration: none;
 }
@@ -70,5 +90,9 @@ h6 {
 /*FOOTER*/
 footer {
   background-color: #4A9E63;
+}
+
+footer div h3 {
+  font-size: large;
 }
 /*# sourceMappingURL=estilos.css.map */

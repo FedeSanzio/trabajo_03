@@ -34,30 +34,7 @@
 
             }
             
-        }
-    
-             /*BUCLES*/
-        @for $titulo from 1 through 6 {
-            
-            h#{$titulo} { 
-                font: 2.5rem / $titulo;
-            }
-        }
-             //MAPS con each
-        $botones: (
-            inicio: #995353,
-            productos: #643737,
-            preguntas: #F1C6C5,
-            contactanos: #a08282,
-        );
-        @each $nombre, $boton in $botones {
-            .boton-#{$nombre} {
-                background-color: $boton;
-                color: white;
-                text-decoration: none;
-            }
-        }
-                
+        }        
         /*FOOTER*/
 footer{
     background-color: $verde;
